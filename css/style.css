@@ -159,8 +159,8 @@ h4 {
 }
 @font-face {
   font-family: "GolosTextWebMedium";
-  src: url("fonts/Golos-Text_Medium.woff2") format("woff2"),
-    url("fonts/Golos-Text_Medium.woff") format("woff");
+  src: url("/css/fonts/golos-text_regular.woff") format("woff"),
+    url("/css/fonts/golos-text_regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }

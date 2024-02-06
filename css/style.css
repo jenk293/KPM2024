@@ -1,65 +1,81 @@
 body {
-    height:1500px;  
-  }
-  
-  header {
-    margin-top: 40px;
-  }
-  
-  header .row,
-  footer .row {
-    display: flex;    
-    align-items: center;
-  }
-  
-  header h1 {
-    font-weight: 700;
-    margin: 0;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: flex-end; 
-  }
-  
-  header p {
-    padding: 0 20px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
+  height: 3000px;
+}
 
-  .first-screen {
-      padding: 250px 0;
-      text-align: center;
-  }
+header {
+  margin-top: 40px;
+}
 
-  .navbar {
-    justify-content: center;
-  }
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
 
-  .menu {
-    background-color: black;
-    color: white;
-    padding: 35px;
-    border-radius: 100px;
-  }
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
 
-  .about {
-    overflow: hidden;    
-    border-style: solid;
-        border-radius: 100px;
-  }
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .about-img  {
-      display: flex;
-      justify-content: right;
-  }
+header p {
+  padding: 0 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
 
-  .about-img img  {
-    margin-right: -20px;
+.first-screen {
+  padding: 250px 0;
+  text-align: center;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.menu {
+  background-color: black;
+  color: white;
+  padding: 35px;
+  border-radius: 100px;
+}
+
+.about {
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+.about-img {
+  display: flex;
+  justify-content: right;
+}
+
+.about-img img {
+  margin-right: -20px;
 }
 
 .about-txt {
-    padding: 40px 0 0 40px;
+  padding: 40px 0 0 40px;
+}
+
+.skills-card {
+  background-color: aquamarine;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+. skills-card img {
+  margin: 5px 0 5px -5px;
+  border-radius: 100px;
+}
+
+.skills-card h3 {
+  margin-top: 13px;
 }

@@ -26,7 +26,7 @@ header a {
 }
 
 .first-screen {
-  padding: 250px 0;
+  padding: 150px 0;
   text-align: center;
 }
 
@@ -43,8 +43,17 @@ header a {
 
 .about {
   overflow: hidden;
-  border-style: solid;
   border-radius: 100px;
+  background: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(244, 244, 244, 1) 41%,
+    rgba(193, 193, 193, 1) 57%,
+    rgba(22, 22, 22, 1) 72%,
+    rgba(4, 4, 4, 1) 79%,
+    rgba(70, 15, 79, 1) 89%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .about-img {
@@ -61,7 +70,7 @@ header a {
 }
 
 .skills-card {
-  background-color: aquamarine;
+  background-color: white;
   border-radius: 100px;
   overflow: hidden;
   margin: 25px;
@@ -79,4 +88,79 @@ header a {
 footer {
   background-color: black;
   color: white;
+  margin-top: 100px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.portfolio-card {
+  background-color: white;
+  border-radius: 50px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.portfolio-card h3 {
+  margin: 15px 0;
+}
+
+.portfolio-card img {
+  border-radius: 0 0 25px 25px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.section-title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+body {
+  font-family: "GolosTextWebMedium";
+  background: rgb(159, 159, 159);
+  background: linear-gradient(
+    135deg,
+    rgba(159, 159, 159, 1) 0%,
+    rgba(204, 204, 204, 1) 35%,
+    rgba(251, 251, 251, 1) 100%
+  );
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "GolosTextWebBold";
+  font-size: 4.2rem;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "GolosTextWebBold";
+}
+
+@font-face {
+  font-family: "GolosTextWebBold";
+  src: url("fonts/golos-text_bold.woff") format("woff2"),
+    url("fonts/golos-text_bold.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosTextWebMedium";
+  src: url("fonts/Golos-Text_Medium.woff2") format("woff2"),
+    url("fonts/Golos-Text_Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn {
+  border-radius: 50px;
 }

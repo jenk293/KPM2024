@@ -119,7 +119,6 @@ h2 {
 }
 
 body {
-  font-family: "GolosTextWebMedium";
   background: rgb(159, 159, 159);
   background: linear-gradient(
     135deg,
@@ -154,13 +153,6 @@ h4 {
   font-family: "GolosTextWebBold";
   src: url("fonts/golos-text_bold.woff") format("woff2"),
     url("fonts/golos-text_bold.woff2") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "GolosTextWebMedium";
-  src: url("/css/fonts/golos-text_regular.woff") format("woff"),
-    url("/css/fonts/golos-text_regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }

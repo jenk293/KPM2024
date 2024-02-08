@@ -36,17 +36,16 @@ header a {
 
 .line {
   margin: -30px auto 10px;
-	padding: 0;
-	height: 50px;
-	border: none;
-	border-bottom: 1px solid #07080A;
-	box-shadow: 0 20px 20px -20px rgb(7 8 10 / 73%);
-	width: 95%;
-
+  padding: 0;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #07080a;
+  box-shadow: 0 20px 20px -20px rgb(7 8 10 / 73%);
+  width: 95%;
 }
 
 .menu {
-  background-color: #07080A;
+  background-color: #07080a;
   color: white;
   padding: 35px;
   border-radius: 100px;
@@ -56,8 +55,12 @@ header a {
   color: white;
   overflow: hidden;
   border-radius: 100px;
-  background: rgb(7,8,10);
-  background: linear-gradient(171deg, rgba(7,8,10,1) 60%, rgba(150,108,193,1) 100%);
+  background: rgb(7, 8, 10);
+  background: linear-gradient(
+    171deg,
+    rgba(7, 8, 10, 1) 60%,
+    rgba(150, 108, 193, 1) 100%
+  );
   transition: 300ms;
 }
 
@@ -89,8 +92,7 @@ header a {
 
 .skills-card img {
   margin: 5px 0 5px -5px;
-  width: 128px;
-  height: 128px;
+  max-height: 128px;
 }
 
 .skills-card h3 {
@@ -98,7 +100,7 @@ header a {
 }
 
 footer {
-  background-color: #07080A;
+  background-color: #07080a;
   color: white;
   padding: 25px 0;
   text-align: center;
@@ -132,7 +134,7 @@ h2 {
 }
 
 body {
-  background-image: url('../img/Paper.png');
+  background-image: url("../img/background.png");
   background-size: contain;
 }
 

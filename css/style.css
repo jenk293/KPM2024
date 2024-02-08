@@ -88,8 +88,7 @@ header a {
 footer {
   background-color: black;
   color: white;
-  margin-top: 100px;
-  padding: 50px 0;
+  padding: 25px 0;
   text-align: center;
 }
 
@@ -98,7 +97,7 @@ footer {
   border-radius: 50px;
   overflow: hidden;
   text-align: center;
-  padding-bottom: 25px;
+  padding: 0 50px 25px 50px;
 }
 
 .portfolio-card h3 {
@@ -140,7 +139,7 @@ h1 {
 
 h2 {
   font-size: 2.8rem;
-  margin: 50px 0;
+  margin: 50px 0 15px 0;
 }
 
 h2,
@@ -165,4 +164,31 @@ h4 {
 
 p {
   font-size: 20px;
+}
+
+.confident a {
+  font-size: 0.8rem;
+  color: rgb(190, 190, 190);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.skills-card p {
+  font-size: 0.9rem;
+}
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+.stack {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.stack img {
+  max-height: 75px;
 }

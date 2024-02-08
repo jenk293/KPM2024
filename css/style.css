@@ -54,6 +54,11 @@ header a {
     rgba(70, 15, 79, 1) 89%,
     rgba(0, 0, 0, 1) 100%
   );
+  transition: 300ms;
+}
+
+.about:hover {
+  scale: 102%;
 }
 
 .about-img {
@@ -74,6 +79,7 @@ header a {
   border-radius: 100px;
   overflow: hidden;
   margin: 25px;
+  transition: 300ms;
 }
 
 .skills-card img {
@@ -107,6 +113,8 @@ footer {
 .portfolio-card img {
   border-radius: 0 0 25px 25px;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  transition: 300ms;
+  margin-bottom: 15px;
 }
 
 .section-title {
@@ -191,4 +199,25 @@ a:hover {
 
 .stack img {
   max-height: 75px;
+}
+
+.skills-card:hover {
+  scale: 102%;
+}
+
+.portfolio-card img:hover {
+  scale: 102%;
+}
+
+.stack img {
+  transition: 300ms;
+  filter: grayscale(100%);
+}
+.stack img:hover {
+  scale: 112%;
+  filter: grayscale(0%);
+}
+
+.github-icon {
+  font-size: 2rem;
 }

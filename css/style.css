@@ -224,3 +224,15 @@ a:hover {
 .github-icon {
   font-size: 2rem;
 }
+
+.modal-content {
+  background: #07080a;
+}
+
+.modal-content h2 {
+  margin: 0;
+}
+
+.confident a {
+  cursor: pointer;
+}
